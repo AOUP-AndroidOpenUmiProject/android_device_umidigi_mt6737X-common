@@ -1,8 +1,3 @@
-# Platform
-ifeq($(TARGET_IS_MT6737T), true)
-TARGET_BOARD_PLATFORM := mt6737t
-endif
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
